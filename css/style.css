@@ -1,0 +1,212 @@
+/* RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* GENERAL */
+img {
+    max-width: 100%;
+}
+
+html {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+/* DEBUG */
+/* .header-container {
+    background-color: #FF6900;
+    border-style: dashed;
+    border-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    position: absolute;
+}
+
+.category-container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border-style: dashed;
+    border-color: aqua;
+} */
+
+/* .left-footer {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.right-footer {
+    display: flex;
+    justify-content: flex-end;
+} */
+
+/* .img-container {
+    background-color: blue;
+    width: 400px;
+} */
+
+/* STYLE */
+
+/* header */
+
+header {
+    position: relative;
+
+}
+
+.header-container {
+    background-color: #FF6900;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    z-index: 1;
+}
+
+.category-container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.category {
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+.category:hover {
+    color: rgb(21, 21, 21);
+}
+
+.logo {
+    width: 150px;
+}
+
+.icon {
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.icon:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+main {
+    overflow: auto;
+}
+
+.main-container {
+    margin: 0 auto;
+    width: 80%;
+    height: 1700px;
+    padding-top: 20px;
+    margin-top: 60px;
+}
+
+.products-row {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.product {
+    padding: 8px;
+    width: calc(100% / 3);
+    padding-top: 5px;
+    position: relative;
+}
+
+
+.discount {
+    position: absolute;
+    left: 8px;
+    background-color: red;
+    bottom: 200px;
+    padding: 5px;
+    color: white;
+}
+
+.sustainable {
+    position: absolute;
+    bottom: 200px;
+    left: 60px;
+    background-color: green;
+    padding: 5px;
+    color: white;
+}
+
+.only-sustainable {
+    position: absolute;
+    bottom: 200px;
+    left: 8px;
+    background-color: green;
+    padding: 5px;
+    color: white;
+}
+
+.save {
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    padding: 15px;
+    font-size: x-large;
+    color: rgb(186, 185, 185);
+}
+
+.save:hover {
+    color:red;
+}
+
+.brand {
+    font-size: small;
+}
+
+.description {
+    font-size: larger;
+}
+/* footer */
+
+.footer {
+    position: relative;
+}
+
+.footer-container {
+   bottom: 0;
+   width: 100%;
+   height: 70px;
+   background-color: black;
+   display: flex;
+   justify-content: space-around;
+   position: absolute;
+   bottom: 0;
+}
+
+.left-footer, .right-footer {
+    color: white;
+}
+
+.boolandosrl {
+    font-size: 20px;
+    padding: 10px 0;
+    text-align: start;
+}
+
+.info {
+    font-size: smaller;
+    opacity: 0.5;
+}
+
+.where-to-find-us {
+    font-size: 20px;
+    padding: 10px 0;
+    font-size: small;
+}
